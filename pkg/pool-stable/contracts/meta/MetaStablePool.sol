@@ -62,6 +62,7 @@ contract MetaStablePool is StablePool, PoolPriceOracle {
         string name;
         string symbol;
         IERC20[] tokens;
+        address[] assetManagers;
         IRateProvider[] rateProviders;
         uint256[] priceRateCacheDuration;
         uint256 amplificationParameter;
@@ -78,6 +79,7 @@ contract MetaStablePool is StablePool, PoolPriceOracle {
             params.name,
             params.symbol,
             params.tokens,
+            params.assetManagers,
             params.amplificationParameter,
             params.swapFeePercentage,
             params.pauseWindowDuration,
