@@ -15,12 +15,12 @@
 pragma solidity ^0.7.0;
 pragma experimental ABIEncoderV2;
 
-import "@balancer-labs/v2-solidity-utils/contracts/helpers/BalancerErrors.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/math/Math.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/IERC20.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ReentrancyGuard.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/SafeCast.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/SafeERC20.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/helpers/BalancerErrors.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/math/Math.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/IERC20.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/ReentrancyGuard.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/SafeCast.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/SafeERC20.sol";
 
 import "./AssetTransfersHandler.sol";
 import "./VaultAuthorization.sol";

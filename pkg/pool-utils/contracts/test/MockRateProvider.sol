@@ -14,7 +14,7 @@
 
 pragma solidity ^0.7.0;
 
-import "@balancer-labs/v2-solidity-utils/contracts/math/FixedPoint.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/math/FixedPoint.sol";
 
 import "../interfaces/IRateProvider.sol";
 

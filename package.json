@@ -1,5 +1,5 @@
 {
-  "name": "@balancer-labs/v2-monorepo",
+  "name": "@powerpool/balancer-v2",
   "private": true,
   "description": "Balancer v2 Monorepo",
   "license": "GPL-3.0-only",
@@ -30,5 +30,8 @@
   "workspaces": [
     "pkg/*",
     "pvt/*"
-  ]
+  ],
+  "dependencies": {
+    "hardhat": "^2.9.2"
+  }
 }

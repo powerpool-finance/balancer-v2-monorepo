@@ -15,7 +15,7 @@
 pragma solidity ^0.7.0;
 pragma experimental ABIEncoderV2;
 
-import "@balancer-labs/v2-vault/contracts/test/MockPool.sol";
+import "@powerpool/balancer-v2-vault/contracts/test/MockPool.sol";
 import "../IAssetManager.sol";
 
 contract MockAssetManagedPool is MockPool {

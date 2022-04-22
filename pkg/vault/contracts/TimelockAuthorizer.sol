@@ -14,10 +14,10 @@
 
 pragma solidity ^0.7.0;
 
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/Address.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/helpers/InputHelpers.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/helpers/BalancerErrors.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/helpers/IAuthentication.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/Address.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/helpers/InputHelpers.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/helpers/BalancerErrors.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/helpers/IAuthentication.sol";
 
 import "./interfaces/IAuthorizer.sol";
 import "./interfaces/IVault.sol";
