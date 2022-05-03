@@ -14,7 +14,7 @@
 
 pragma solidity ^0.7.0;
 
-import "@balancer-labs/v2-solidity-utils/contracts/test/MockLogCompression.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/test/MockLogCompression.sol";
 
 import "../oracle/OracleWeightedMath.sol";
 

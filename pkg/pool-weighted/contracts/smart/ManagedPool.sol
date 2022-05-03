@@ -15,10 +15,10 @@
 pragma solidity ^0.7.0;
 pragma experimental ABIEncoderV2;
 
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/EnumerableMap.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/openzeppelin/ReentrancyGuard.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/helpers/ERC20Helpers.sol";
-import "@balancer-labs/v2-solidity-utils/contracts/helpers/WordCodec.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/EnumerableMap.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/openzeppelin/ReentrancyGuard.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/helpers/ERC20Helpers.sol";
+import "@powerpool/balancer-v2-solidity-utils/contracts/helpers/WordCodec.sol";
 
 import "../BaseWeightedPool.sol";
 import "../WeightedPoolUserData.sol";
